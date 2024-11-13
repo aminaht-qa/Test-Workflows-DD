@@ -30,4 +30,4 @@ jobs:
       with:
         api_key: ${{secrets.DD_API_KEY}}
         app_key: ${{secrets.DD_APP_KEY}}
-        datadog-environment: 'staging'
+        test_search_query: 'tag:staging'
